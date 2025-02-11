@@ -94,6 +94,8 @@ table {
     }
     h4 {
         font-size: 1.15em;
+        color: var(--Purple);
+        font-weight: bold;
     }
     header {
         background-color: var(--Lavender);
@@ -120,6 +122,94 @@ table {
     }
     nav {
         margin: 50px 10px 10px 10px;
+    }
+    .PD {
+        background-color: var(--White);
+        margin: 20px;
+        padding: 15px;
+        border-radius: 15px;
+    }
+    .PD h4 {
+        margin-bottom: 10px;
+    }
+    .PD img {
+        margin-bottom: 10px;
+    }
+    .CC {
+        background-color: var(--White);
+        margin: 20px;
+        padding: 15px;
+        border-radius: 15px;
+    }
+    .CC h4 {
+        margin-bottom: 10px;
+    }
+    .CC img {
+        margin-bottom: 10px;
+    }
+    .RC {
+        background-color: var(--White);
+        margin: 20px;
+        padding: 15px;
+        border-radius: 15px;
+    }
+    .RC h4 {
+        margin-bottom: 10px;
+    }
+    .RC img {
+        margin-bottom: 10px;
+    }
+    .SC {
+        background-color: var(--White);
+        margin: 20px;
+        padding: 15px;
+        border-radius: 15px;
+    }
+    .SC h4 {
+        margin-bottom: 10px;
+    }
+    .SC img {
+        margin-bottom: 10px;
+    }
+    .FS {
+        background-color: var(--White);
+        margin: 20px;
+        padding: 15px;
+        border-radius: 15px;
+    }
+    .FS h4 {
+        margin-bottom: 10px;
+    }
+    .FS img {
+        margin-bottom: 10px;
+    }
+    .IL {
+        background-color: var(--White);
+        margin: 20px;
+        padding: 15px;
+        border-radius: 15px;
+    }
+    .IL h4 {
+        margin-bottom: 10px;
+    }
+    .IL img {
+        margin-bottom: 10px;
+    }
+    .FL {
+        background-color: var(--White);
+        margin: 20px;
+        padding: 15px;
+        border-radius: 15px;
+    }
+    .FL h4 {
+        margin-bottom: 10px;
+    }
+    .FL img {
+        margin-bottom: 10px;
+    }
+    .WCU {
+        background-color: var(--Pink);
+        padding: 20px;
     }
 }
     /*-------------------- MEDIA QUERY (Medium- min-width: 620px) --------------------------------*/
