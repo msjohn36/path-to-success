@@ -3,12 +3,12 @@
 
     /* -------------------- IMPORTED FONTS -------------------------------------- */
     @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
     /*-------------------- CSS REST ---------------------------------------------------*/
     /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -56,7 +56,7 @@ table {
     /* -------------------- ROOT VARIABLES --------------------------------------- */
 :root{
     font-family: "Inter", sans-serif;
-    --font-heading: "kavoon", serif;
+    --font-heading: "Kavoon", serif;
     --font-text: "Inter", sans-serif;
     font-size: 1em;
     --Teal :#4CA7C0;
@@ -69,18 +69,58 @@ table {
 }
 
     /* --------------------GLOBAL STYLES (mobile first/small) --------------------*/
-@media screen and {
-    min-width: 450px;
+@media screen and (min-width: 450px) {
     body{
         font-family: var(--font-text);
+        background-color: var(--Purple);
     }
-    h1 h2{
+    h1, h2{
         font-family: var(--font-heading);
+        color: var(--White);
     }
     h1 {
-        font-weight: 3em;
+        font-size: 3em;
     }
-    nav h2
+    nav h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    h3 {
+        font-size: 1.5em;
+        color: var(--Yellow);
+        font-weight: bold;
+    }
+    h4 {
+        font-size: 1.15em;
+    }
+    header {
+        background-color: var(--Lavender);
+        padding: 40px 10px 20px 10px;
+        /* margin: 0 auto; */
+        text-align: center;
+        border-radius: 0 0 40px 40px;
+        position: relative;
+        z-index: 2;
+       
+    }
+    .slogan {
+        color: var(--White);
+        background-color: var(--Pink);
+        padding: 40px 30px 10px;
+        text-align: center;
+        display: block;
+        justify-content: center;
+        border-radius: 0 0 40px 40px;
+        width: 95%;
+        position: absolute;
+        z-index: 1;
+        top: 75px; 
+    }
+    nav {
+        margin: 50px 10px 10px 10px;
+    }
 }
     /*-------------------- MEDIA QUERY (Medium- min-width: 620px) --------------------------------*/
 
