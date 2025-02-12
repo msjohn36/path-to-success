@@ -1,6 +1,6 @@
 
     /* -------------------- CSS BY NAME -------------------------------------- */
-
+            /* Mindy Johnston */
     /* -------------------- IMPORTED FONTS -------------------------------------- */
     @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
 
@@ -113,15 +113,11 @@ table {
         background-color: var(--Pink);
         padding: 40px 30px 10px;
         text-align: center;
-        display: block;
-        justify-content: center;
         border-radius: 0 0 40px 40px;
-        width: 95%;
+        width: 85%;
         position: absolute;
         z-index: 1;
         top: 100px; 
-        overflow: hidden;
-        white-space: nowrap;
     }
     nav {
         margin: 50px 10px 10px 10px;
@@ -269,6 +265,31 @@ table {
         padding: 50px 30px;
         margin: 10px;
     }
+    table {
+        background-color: var(--White);
+    table-layout: fixed;
+    width: auto;
+    height: auto;
+    border: 3px solid var(--Yellow);
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+   }
+   .SC {
+    background-color: var(--Yellow);
+    padding: 200px;
+    margin: 200px;
+    text-align: center;
+    font-weight: bold;
+   }
+   td {
+    border: 2px solid var(--Yellow);
+    padding: 20px;
+}
+tr {
+    border: 2px solid var(--Yellow);
+}
 }
     /*-------------------- MEDIA QUERY (Medium- min-width: 620px) --------------------------------*/
 
