@@ -86,11 +86,13 @@ table {
     }
     h2 {
         font-size: 2em;
+        margin: 10px;
     }
     h3 {
         font-size: 1.5em;
         color: var(--Yellow);
         font-weight: bold;
+        margin: 10px;
     }
     h4 {
         font-size: 1.15em;
@@ -125,21 +127,23 @@ table {
     }
     .PD {
         background-color: var(--White);
-        margin: 20px;
-        padding: 15px;
+        margin: 30px;
+        padding: 30px 50px 30px 30px;
         border-radius: 15px;
+        line-height: 1.5;
     }
     .PD h4 {
         margin-bottom: 10px;
     }
     .PD img {
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
     .CC {
         background-color: var(--White);
-        margin: 20px;
-        padding: 15px;
+        margin: 30px;
+        padding: 30px 50px 30px 30px;
         border-radius: 15px;
+        line-height: 1.5;
     }
     .CC h4 {
         margin-bottom: 10px;
@@ -149,9 +153,10 @@ table {
     }
     .RC {
         background-color: var(--White);
-        margin: 20px;
-        padding: 15px;
+        margin: 30px;
+        padding: 30px 50px 30px 30px;
         border-radius: 15px;
+        line-height: 1.5;
     }
     .RC h4 {
         margin-bottom: 10px;
@@ -161,9 +166,10 @@ table {
     }
     .SC {
         background-color: var(--White);
-        margin: 20px;
-        padding: 15px;
+        margin: 30px;
+        padding: 30px 50px 30px 30px;
         border-radius: 15px;
+        line-height: 1.5;
     }
     .SC h4 {
         margin-bottom: 10px;
@@ -173,9 +179,10 @@ table {
     }
     .FS {
         background-color: var(--White);
-        margin: 20px;
-        padding: 15px;
+        margin: 30px;
+        padding: 30px 50px 30px 30px;
         border-radius: 15px;
+        line-height: 1.5;
     }
     .FS h4 {
         margin-bottom: 10px;
@@ -185,9 +192,10 @@ table {
     }
     .IL {
         background-color: var(--White);
-        margin: 20px;
-        padding: 15px;
+        margin: 30px;
+        padding: 30px 50px 30px 30px;
         border-radius: 15px;
+        line-height: 1.5;
     }
     .IL h4 {
         margin-bottom: 10px;
@@ -197,9 +205,10 @@ table {
     }
     .FL {
         background-color: var(--White);
-        margin: 20px;
-        padding: 15px;
+        margin: 30px;
+        padding: 30px 50px 30px 30px;
         border-radius: 15px;
+        line-height: 1.5;
     }
     .FL h4 {
         margin-bottom: 10px;
@@ -211,17 +220,35 @@ table {
         background-color: var(--Pink);
         padding: 20px;
     }
+    .WCU ul{
+        display: grid;
+        grid-template-columns: auto auto;
+        font-weight: bold;
+        text-align: center;
+    }
     .WCU li:nth-of-type(1) {
         background-color: var(--Teal);
+        border-radius: 20px;
+        padding: 50px 30px;
+        margin: 10px;
     }
     .WCU li:nth-of-type(2) {
         background-color: var(--Lavender);
+        border-radius: 20px;
+        padding: 50px 30px;
+        margin: 10px;
     }
     .WCU li:nth-of-type(3) {
         background-color: var(--Yellow);
+        border-radius: 20px;
+        padding: 50px 30px;
+        margin: 10px;
     }
     .WCU li:nth-of-type(4) {
         background-color: var(--White);
+        border-radius: 20px;
+        padding: 50px 30px;
+        margin: 10px;
     }
 }
     /*-------------------- MEDIA QUERY (Medium- min-width: 620px) --------------------------------*/
