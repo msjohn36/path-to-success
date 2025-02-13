@@ -124,8 +124,8 @@ table {
     }
     nav h2 {
         background-color: var(--Yellow);
-        border-radius: 0 0 20px 20px;
-        padding: 10px 20px;
+        border-radius: 0 0 10px 10px;
+        padding: 10px 10px 15px 10px;
         text-align: center;
         position: fixed;
         z-index: 3;
@@ -135,14 +135,15 @@ table {
         font-family: var(--font-text);
         font-weight: bold;
         font-style: italic;
-        font-variant:small-caps;
+        font-size: 1.75em;
+        text-transform: uppercase;
     }
     nav ul{
         visibility: hidden;
     }
     .PD {
         background-color: var(--White);
-        margin: 30px;
+        margin: 15px 30px;
         padding: 30px 50px 30px 30px;
         border-radius: 15px;
         line-height: 1.5;
@@ -155,7 +156,7 @@ table {
     }
     .CC {
         background-color: var(--White);
-        margin: 30px;
+        margin: 15px 30px;
         padding: 30px 50px 30px 30px;
         border-radius: 15px;
         line-height: 1.5;
@@ -168,7 +169,7 @@ table {
     }
     .RC {
         background-color: var(--White);
-        margin: 30px;
+        margin: 15px 30px;
         padding: 30px 50px 30px 30px;
         border-radius: 15px;
         line-height: 1.5;
@@ -181,7 +182,7 @@ table {
     }
     #SC {
         background-color: var(--White);
-        margin: 30px;
+        margin: 15px 30px;
         padding: 30px 50px 30px 30px;
         border-radius: 15px;
         line-height: 1.5;
@@ -194,7 +195,7 @@ table {
     }
     .FS {
         background-color: var(--White);
-        margin: 30px;
+        margin: 15px 30px;
         padding: 30px 50px 30px 30px;
         border-radius: 15px;
         line-height: 1.5;
@@ -207,7 +208,7 @@ table {
     }
     .IL {
         background-color: var(--White);
-        margin: 30px;
+        margin: 15px 30px;
         padding: 30px 50px 30px 30px;
         border-radius: 15px;
         line-height: 1.5;
@@ -220,7 +221,7 @@ table {
     }
     .FL {
         background-color: var(--White);
-        margin: 30px;
+        margin: 15px 30px;
         padding: 30px 50px 30px 30px;
         border-radius: 15px;
         line-height: 1.5;
@@ -233,7 +234,7 @@ table {
     }
     .WCU {
         background-color: var(--Pink);
-        padding: 20px;
+        padding: 10px;
     }
     .WCU ul{
         display: grid;
@@ -244,49 +245,66 @@ table {
     .WCU li:nth-of-type(1) {
         background-color: var(--Teal);
         border-radius: 10px;
-        padding: 50px 15px;
-        margin: 30px 10px;
+        padding: 25px;
+        margin: 10px;
     }
     .WCU li:nth-of-type(2) {
         background-color: var(--Lavender);
         border-radius: 10px;
-        padding: 50px 30px;
-        margin: 30px 10px;
+        padding: 25px;
+        margin: 10px;
     }
     .WCU li:nth-of-type(3) {
         background-color: var(--Yellow);
         border-radius: 10px;
-        padding: 50px 15px;
-        margin: 30px 10px;
+        padding: 25px;
+        margin: 10px;
     }
     .WCU li:nth-of-type(4) {
         background-color: var(--White);
         border-radius: 10px;
-        padding: 50px 15px;
-        margin: 30px 10px;
+        padding: 25px;
+        margin: 10px;
     }
     table {
         background-color: var(--White);
-    table-layout: fixed;
-    width: 350px;
-    height: 200px;
-    
-    border: 3px solid var(--Yellow);
-    margin-left: auto;
-    margin-right: auto;
-   
+        table-layout: fixed;
+        width: auto;
+        border: 3px solid var(--Yellow);
+        margin-left: auto;
+        margin-right: auto;
    }
    .SC {
-    background-color: var(--Yellow);
-    font-weight: bold;
+        background-color: var(--Yellow);
+        font-weight: bold;
    }
 
    td {
-    border: 2px solid var(--Yellow);
-
+        border: 2px solid var(--Yellow);
+        text-align: center;
+        padding: 10px;
 }
-    th {
-    border: 2px solid var(--Yellow);
+.firststep {
+    background-color: var(--Pink);
+    color: var(--White);
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;  
+}
+.firststep h2 {
+    text-align: left;
+}
+.firststep p {
+    text-align: left;
+    padding-bottom: 10px;
+    line-height: 1.5;
+}
+.schedule-now {
+    border-radius: 10px;
+    padding: 10px 100px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 6px 8px 5px var(--Dark-gray);
 }
 }
     /*-------------------- MEDIA QUERY (Medium- min-width: 620px) --------------------------------*/
