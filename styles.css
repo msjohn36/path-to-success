@@ -109,19 +109,25 @@ table {
         z-index: 2;
        
     }
-    .slogan {
+    .slogan1 {
         color: var(--White);
         background-color: var(--Pink);
-        padding: 40px 30px 10px;
+        padding: 50px 30px 10px;
         text-align: center;
         border-radius: 0 0 40px 40px;
         width: 85%;
         position: absolute;
         z-index: 1;
         top: 100px; 
+        font-style: italic;
+        margin-left: 5px;
+        font-size: 1.25em;
+    }
+    .slogan2 {
+        visibility: hidden;
     }
     nav {
-        margin: 50px 10px 10px 10px;
+        /* margin: 50px 10px 10px 10px; */
     }
     nav h2 {
         background-color: var(--Yellow);
@@ -323,7 +329,11 @@ footer{
 }
 }
     /*-------------------- MEDIA QUERY (Medium- min-width: 620px) --------------------------------*/
+    @media screen and (min-width: 620px) {
+        body{
 
+        }
+    }
     /*-------------------- MEDIA QUERY (Large- min-width: 950px) ------------------------------------*/
 
     /*-------------------- MEDIA QUERY (XL- min-width: 1280px) ---------------------------------------*/
