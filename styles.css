@@ -109,7 +109,7 @@ table {
         z-index: 2;
        
     }
-    .slogan1 {
+    section p span {
         color: var(--White);
         background-color: var(--Pink);
         padding: 50px 30px 10px;
@@ -122,12 +122,6 @@ table {
         font-style: italic;
         margin-left: 5px;
         font-size: 1.25em;
-    }
-    .slogan2 {
-        visibility: hidden;
-    }
-    nav {
-        /* margin: 50px 10px 10px 10px; */
     }
     nav h2 {
         background-color: var(--Yellow);
@@ -307,8 +301,8 @@ table {
     line-height: 1.5;
 }
 .schedule-now {
-    border-radius: 10px;
-    padding: 10px 100px;
+    border-radius: 15px;
+    padding: 20px 100px;
     font-weight: bold;
     text-transform: uppercase;
     box-shadow: 6px 8px 5px var(--Dark-gray);
