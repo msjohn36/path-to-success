@@ -304,12 +304,11 @@ table {
     line-height: 1.5;
 }
 .schedule-now {
-    background-color: var(--White);
     border-radius: 15px;
     padding: 20px 100px;
     font-weight: bold;
     text-transform: uppercase;
-    box-shadow: 6px 8px 7px var(--Dark-gray);
+    box-shadow: 6px 8px 5px var(--Dark-gray);
 }
 footer{
     background-color: var(--Lavender);
@@ -346,36 +345,33 @@ footer{
            }
            .WCU ul {
             display: flex;
-            justify-content: space-evenly;
            }
-           section:has(div) {
+           .pricing:has(div) {
             display: grid;
             grid-template-columns: 1fr 1fr;
-                    grid-column-start: 1;
-                    grid-column-end: 2;
+            grid-column-start: 1;
+            grid-column-end: 2;
         }
-         .firststep  {
-         display: grid;
-         grid-template-columns: 1fr auto;
-         }
-         .firststep h2 {
-            grid-column-start: 1;
-                    grid-column-end: 2;
-         }
-         .firststep p {
-            grid-column-start: 1;
-                    grid-column-end: 1;
-         } 
-        button {
-            grid-column-start: 2;
-            grid-column-end: 3;
-            margin: 30px;
-            position: relative;
-            top: -50px;
+        .firststep  {
+            display: grid;
+            grid-template-columns: 1fr auto;
             }
-            
-        }
-    
+            .firststep h2 {
+               grid-column-start: 1;
+                       grid-column-end: 2;
+            }
+            .firststep p {
+               grid-column-start: 1;
+                       grid-column-end: 1;
+            } 
+           button {
+               grid-column-start: 2;
+               grid-column-end: 3;
+               margin: 30px;
+               position: relative;
+               top: -50px;
+               }
+}
     
     /*-------------------- MEDIA QUERY (Large- min-width: 950px) ------------------------------------*/
 
